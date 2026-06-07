@@ -1,0 +1,6 @@
+Method -> GET, Time -> 1780781843879, URL -> /
+Method -> GET, Time -> 1780781882177, URL -> /
+
+Method -> GET, Time -> 1780854243289, URL -> /favicon.ico
+
+Method -> GET, Time -> 1780863314030, URL -> /api/users
