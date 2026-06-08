@@ -4,3 +4,19 @@ Method -> GET, Time -> 1780781882177, URL -> /
 Method -> GET, Time -> 1780854243289, URL -> /favicon.ico
 
 Method -> GET, Time -> 1780863314030, URL -> /api/users
+
+Method -> GET, Time -> 1780863929824, URL -> /api/users
+
+Method -> POST, Time -> 1780864101755, URL -> /api/auth/login
+
+Method -> GET, Time -> 1780864589697, URL -> /api/users
+
+Method -> GET, Time -> 1780864597263, URL -> /api/users
+
+Method -> GET, Time -> 1780864601685, URL -> /api/users
+
+Method -> GET, Time -> 1780864605446, URL -> /api/users
+
+Method -> POST, Time -> 1780951241167, URL -> /api/users
+
+Method -> POST, Time -> 1780951255620, URL -> /api/users
