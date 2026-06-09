@@ -1,17 +1,20 @@
 import type { Request, Response } from "express";
 import { userService } from "./user.service";
+import sendResponse from "../../utility/sendResponse";
 
 const getAllUsers = async (req: Request, res: Response) => {
     try {
         const result = await userService.getAllUsersFromDB();
-
-        return res.status(200).json({
+        
+        return sendResponse(res, {
+            statusCode: 200,
             success: true,
             message: "Users retrieved successfully",
             data: result.rows,
         });
     } catch (error: any) {
-        return res.status(500).json({
+        return sendResponse(res, {
+            statusCode: 500,
             success: false,
             message: error.message,
             error: error,
